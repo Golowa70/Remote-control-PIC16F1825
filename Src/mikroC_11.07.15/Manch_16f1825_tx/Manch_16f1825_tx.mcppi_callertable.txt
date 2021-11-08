@@ -1,0 +1,14 @@
+main
+	__CC2DW
+	ManInit
+	Button
+		Delay_500us
+	ManBufAddByte
+	ManTransmitData
+		ManTransmitBit
+			ManPause
+		ManTransmitByte
+			ManCheckSumm
+			ManTransmitBit
+				ManPause
+interrupt
